@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2C05CF25B8C36C0049C377 /* NewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05CE25B8C36C0049C377 /* NewContent.swift */; };
+		0A2C05D425B8C3730049C377 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05D325B8C3730049C377 /* Content.swift */; };
+		0A2C05D925B8C3830049C377 /* UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05D825B8C3830049C377 /* UserActivity.swift */; };
+		0A2C05DE25B8C38B0049C377 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05DD25B8C38B0049C377 /* Users.swift */; };
+		0A2C05E325B8C3930049C377 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05E225B8C3930049C377 /* DAO.swift */; };
+		0A2C05E825B8C39A0049C377 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05E725B8C39A0049C377 /* ImagePicker.swift */; };
+		0A2C05ED25B8C3A20049C377 /* MultLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C05EC25B8C3A20049C377 /* MultLineTextField.swift */; };
+		0A2C069525BB430D0049C377 /* LimitedMultLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C069425BB430D0049C377 /* LimitedMultLineTextField.swift */; };
+		0ABBC93525C1236800CD7020 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABBC93425C1236800CD7020 /* UIExtensions.swift */; };
+		0AD04CC025C9C4AC0084BC3E /* TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD04CBF25C9C4AC0084BC3E /* TabItems.swift */; };
+		0AD04CC525C9C4DA0084BC3E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD04CC425C9C4DA0084BC3E /* ActionButton.swift */; };
+		F1064E3A25BA137C00B7461D /* LazyVGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1064E3925BA137C00B7461D /* LazyVGridCell.swift */; };
+		F1DD64B925B7580A006AA56A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD64B825B7580A006AA56A /* AppDelegate.swift */; };
+		F1DD64BB25B7580A006AA56A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD64BA25B7580A006AA56A /* SceneDelegate.swift */; };
+		F1DD64BF25B7580B006AA56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD64BE25B7580B006AA56A /* Assets.xcassets */; };
+		F1DD64C225B7580B006AA56A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD64C125B7580B006AA56A /* Preview Assets.xcassets */; };
+		F1DD64C525B7580B006AA56A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD64C325B7580B006AA56A /* LaunchScreen.storyboard */; };
+		F1DD64D025B7580C006AA56A /* FeedTelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD64CF25B7580C006AA56A /* FeedTelaTests.swift */; };
+		F1DD64DB25B7580C006AA56A /* FeedTelaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD64DA25B7580C006AA56A /* FeedTelaUITests.swift */; };
+		F1DD64F425B76E78006AA56A /* Tripulacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD64F325B76E78006AA56A /* Tripulacao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1DD64CC25B7580C006AA56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD64AD25B7580A006AA56A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD64B425B7580A006AA56A;
+			remoteInfo = FeedTela;
+		};
+		F1DD64D725B7580C006AA56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD64AD25B7580A006AA56A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD64B425B7580A006AA56A;
+			remoteInfo = FeedTela;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2C05CE25B8C36C0049C377 /* NewContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContent.swift; sourceTree = "<group>"; };
+		0A2C05D325B8C3730049C377 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		0A2C05D825B8C3830049C377 /* UserActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivity.swift; sourceTree = "<group>"; };
+		0A2C05DD25B8C38B0049C377 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		0A2C05E225B8C3930049C377 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		0A2C05E725B8C39A0049C377 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0A2C05EC25B8C3A20049C377 /* MultLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultLineTextField.swift; sourceTree = "<group>"; };
+		0A2C069425BB430D0049C377 /* LimitedMultLineTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitedMultLineTextField.swift; sourceTree = "<group>"; };
+		0ABBC93425C1236800CD7020 /* UIExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		0AD04CBF25C9C4AC0084BC3E /* TabItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabItems.swift; sourceTree = "<group>"; };
+		0AD04CC425C9C4DA0084BC3E /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		F1064E3925BA137C00B7461D /* LazyVGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridCell.swift; sourceTree = "<group>"; };
+		F1DD64B525B7580A006AA56A /* FeedTela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedTela.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD64B825B7580A006AA56A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DD64BA25B7580A006AA56A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1DD64BE25B7580B006AA56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DD64C125B7580B006AA56A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1DD64C425B7580B006AA56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1DD64C625B7580B006AA56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD64CB25B7580C006AA56A /* FeedTelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD64CF25B7580C006AA56A /* FeedTelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTelaTests.swift; sourceTree = "<group>"; };
+		F1DD64D125B7580C006AA56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD64D625B7580C006AA56A /* FeedTelaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTelaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD64DA25B7580C006AA56A /* FeedTelaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTelaUITests.swift; sourceTree = "<group>"; };
+		F1DD64DC25B7580C006AA56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD64F325B76E78006AA56A /* Tripulacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tripulacao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DD64B225B7580A006AA56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64C825B7580C006AA56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64D325B7580C006AA56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2C068525BA33040049C377 /* FrontEnd */ = {
+			isa = PBXGroup;
+			children = (
+				0AD04CBF25C9C4AC0084BC3E /* TabItems.swift */,
+				0A2C05CE25B8C36C0049C377 /* NewContent.swift */,
+				F1064E3925BA137C00B7461D /* LazyVGridCell.swift */,
+				F1DD64F325B76E78006AA56A /* Tripulacao.swift */,
+				0ABBC93925C1237100CD7020 /* UI Elements */,
+			);
+			path = FrontEnd;
+			sourceTree = "<group>";
+		};
+		0A2C068625BA336B0049C377 /* BackEnd */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C05E225B8C3930049C377 /* DAO.swift */,
+				0A2C05DD25B8C38B0049C377 /* Users.swift */,
+				0A2C05D825B8C3830049C377 /* UserActivity.swift */,
+				0A2C05D325B8C3730049C377 /* Content.swift */,
+			);
+			path = BackEnd;
+			sourceTree = "<group>";
+		};
+		0A2C068725BA33820049C377 /* Bibliotecas */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C05E725B8C39A0049C377 /* ImagePicker.swift */,
+				0A2C069425BB430D0049C377 /* LimitedMultLineTextField.swift */,
+				0A2C05EC25B8C3A20049C377 /* MultLineTextField.swift */,
+				0ABBC93425C1236800CD7020 /* UIExtensions.swift */,
+			);
+			path = Bibliotecas;
+			sourceTree = "<group>";
+		};
+		0ABBC93925C1237100CD7020 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				0AD04CC425C9C4DA0084BC3E /* ActionButton.swift */,
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		F1DD64AC25B7580A006AA56A = {
+			isa = PBXGroup;
+			children = (
+				F1DD64B725B7580A006AA56A /* FeedTela */,
+				F1DD64CE25B7580C006AA56A /* FeedTelaTests */,
+				F1DD64D925B7580C006AA56A /* FeedTelaUITests */,
+				F1DD64B625B7580A006AA56A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DD64B625B7580A006AA56A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD64B525B7580A006AA56A /* FeedTela.app */,
+				F1DD64CB25B7580C006AA56A /* FeedTelaTests.xctest */,
+				F1DD64D625B7580C006AA56A /* FeedTelaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DD64B725B7580A006AA56A /* FeedTela */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD64B825B7580A006AA56A /* AppDelegate.swift */,
+				F1DD64BA25B7580A006AA56A /* SceneDelegate.swift */,
+				0A2C068725BA33820049C377 /* Bibliotecas */,
+				0A2C068625BA336B0049C377 /* BackEnd */,
+				0A2C068525BA33040049C377 /* FrontEnd */,
+				F1DD64BE25B7580B006AA56A /* Assets.xcassets */,
+				F1DD64C325B7580B006AA56A /* LaunchScreen.storyboard */,
+				F1DD64C625B7580B006AA56A /* Info.plist */,
+				F1DD64C025B7580B006AA56A /* Preview Content */,
+			);
+			path = FeedTela;
+			sourceTree = "<group>";
+		};
+		F1DD64C025B7580B006AA56A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD64C125B7580B006AA56A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1DD64CE25B7580C006AA56A /* FeedTelaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD64CF25B7580C006AA56A /* FeedTelaTests.swift */,
+				F1DD64D125B7580C006AA56A /* Info.plist */,
+			);
+			path = FeedTelaTests;
+			sourceTree = "<group>";
+		};
+		F1DD64D925B7580C006AA56A /* FeedTelaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD64DA25B7580C006AA56A /* FeedTelaUITests.swift */,
+				F1DD64DC25B7580C006AA56A /* Info.plist */,
+			);
+			path = FeedTelaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DD64B425B7580A006AA56A /* FeedTela */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD64DF25B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTela" */;
+			buildPhases = (
+				F1DD64B125B7580A006AA56A /* Sources */,
+				F1DD64B225B7580A006AA56A /* Frameworks */,
+				F1DD64B325B7580A006AA56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedTela;
+			productName = FeedTela;
+			productReference = F1DD64B525B7580A006AA56A /* FeedTela.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1DD64CA25B7580C006AA56A /* FeedTelaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD64E225B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTelaTests" */;
+			buildPhases = (
+				F1DD64C725B7580C006AA56A /* Sources */,
+				F1DD64C825B7580C006AA56A /* Frameworks */,
+				F1DD64C925B7580C006AA56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD64CD25B7580C006AA56A /* PBXTargetDependency */,
+			);
+			name = FeedTelaTests;
+			productName = FeedTelaTests;
+			productReference = F1DD64CB25B7580C006AA56A /* FeedTelaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1DD64D525B7580C006AA56A /* FeedTelaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD64E525B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTelaUITests" */;
+			buildPhases = (
+				F1DD64D225B7580C006AA56A /* Sources */,
+				F1DD64D325B7580C006AA56A /* Frameworks */,
+				F1DD64D425B7580C006AA56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD64D825B7580C006AA56A /* PBXTargetDependency */,
+			);
+			name = FeedTelaUITests;
+			productName = FeedTelaUITests;
+			productReference = F1DD64D625B7580C006AA56A /* FeedTelaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DD64AD25B7580A006AA56A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F1DD64B425B7580A006AA56A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F1DD64CA25B7580C006AA56A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F1DD64B425B7580A006AA56A;
+					};
+					F1DD64D525B7580C006AA56A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F1DD64B425B7580A006AA56A;
+					};
+				};
+			};
+			buildConfigurationList = F1DD64B025B7580A006AA56A /* Build configuration list for PBXProject "FeedTela" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DD64AC25B7580A006AA56A;
+			productRefGroup = F1DD64B625B7580A006AA56A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DD64B425B7580A006AA56A /* FeedTela */,
+				F1DD64CA25B7580C006AA56A /* FeedTelaTests */,
+				F1DD64D525B7580C006AA56A /* FeedTelaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DD64B325B7580A006AA56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD64C525B7580B006AA56A /* LaunchScreen.storyboard in Resources */,
+				F1DD64C225B7580B006AA56A /* Preview Assets.xcassets in Resources */,
+				F1DD64BF25B7580B006AA56A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64C925B7580C006AA56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64D425B7580C006AA56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DD64B125B7580A006AA56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD64B925B7580A006AA56A /* AppDelegate.swift in Sources */,
+				0ABBC93525C1236800CD7020 /* UIExtensions.swift in Sources */,
+				0AD04CC025C9C4AC0084BC3E /* TabItems.swift in Sources */,
+				0A2C069525BB430D0049C377 /* LimitedMultLineTextField.swift in Sources */,
+				0A2C05CF25B8C36C0049C377 /* NewContent.swift in Sources */,
+				F1DD64BB25B7580A006AA56A /* SceneDelegate.swift in Sources */,
+				F1064E3A25BA137C00B7461D /* LazyVGridCell.swift in Sources */,
+				0A2C05DE25B8C38B0049C377 /* Users.swift in Sources */,
+				0A2C05E325B8C3930049C377 /* DAO.swift in Sources */,
+				0A2C05ED25B8C3A20049C377 /* MultLineTextField.swift in Sources */,
+				0A2C05D925B8C3830049C377 /* UserActivity.swift in Sources */,
+				F1DD64F425B76E78006AA56A /* Tripulacao.swift in Sources */,
+				0A2C05E825B8C39A0049C377 /* ImagePicker.swift in Sources */,
+				0A2C05D425B8C3730049C377 /* Content.swift in Sources */,
+				0AD04CC525C9C4DA0084BC3E /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64C725B7580C006AA56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD64D025B7580C006AA56A /* FeedTelaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD64D225B7580C006AA56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD64DB25B7580C006AA56A /* FeedTelaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1DD64CD25B7580C006AA56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD64B425B7580A006AA56A /* FeedTela */;
+			targetProxy = F1DD64CC25B7580C006AA56A /* PBXContainerItemProxy */;
+		};
+		F1DD64D825B7580C006AA56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD64B425B7580A006AA56A /* FeedTela */;
+			targetProxy = F1DD64D725B7580C006AA56A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1DD64C325B7580B006AA56A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD64C425B7580B006AA56A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DD64DD25B7580C006AA56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1DD64DE25B7580C006AA56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DD64E025B7580C006AA56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FeedTela/Preview Content\"";
+				DEVELOPMENT_TEAM = U6DL889KZ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FeedTela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1DD64E125B7580C006AA56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FeedTela/Preview Content\"";
+				DEVELOPMENT_TEAM = U6DL889KZ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FeedTela/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTela;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1DD64E325B7580C006AA56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = FeedTelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedTela.app/FeedTela";
+			};
+			name = Debug;
+		};
+		F1DD64E425B7580C006AA56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = FeedTelaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTelaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedTela.app/FeedTela";
+			};
+			name = Release;
+		};
+		F1DD64E625B7580C006AA56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = FeedTelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeedTela;
+			};
+			name = Debug;
+		};
+		F1DD64E725B7580C006AA56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8435JRD5SK;
+				INFOPLIST_FILE = FeedTelaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brunacosta.FeedTelaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FeedTela;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DD64B025B7580A006AA56A /* Build configuration list for PBXProject "FeedTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD64DD25B7580C006AA56A /* Debug */,
+				F1DD64DE25B7580C006AA56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD64DF25B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTela" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD64E025B7580C006AA56A /* Debug */,
+				F1DD64E125B7580C006AA56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD64E225B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTelaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD64E325B7580C006AA56A /* Debug */,
+				F1DD64E425B7580C006AA56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD64E525B7580C006AA56A /* Build configuration list for PBXNativeTarget "FeedTelaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD64E625B7580C006AA56A /* Debug */,
+				F1DD64E725B7580C006AA56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DD64AD25B7580A006AA56A /* Project object */;
+}
