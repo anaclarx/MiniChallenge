@@ -5,7 +5,7 @@
 //  Created by Bruna Costa on 21/01/21.
 //
 
-import SwiftUI
+
 import SwiftUI
 
 struct LazyVGridCell: View {
@@ -14,6 +14,8 @@ struct LazyVGridCell: View {
     @State var isShowingContent: Bool = true
     
     @State private var isExpanded: Bool = false
+    
+    @State var showingModal: Bool = false
     
     @ObservedObject private var appData = DAO.instance.appData
     
@@ -36,14 +38,31 @@ struct LazyVGridCell: View {
                         }
 //                        Image(content.publiImage)//.padding()
 //                        HStack
+                        HStack{
+                        Text(content.publiText)
+                            .multilineTextAlignment(.leading)
+                            .padding()
+                            
                         
-                        Text(content.publiText).padding()
                             //relacionando o DAO com a celulas usando um counter que vem da view tripulacao
                             
                             
                             .lineLimit(isExpanded ? nil : 2)
                             Spacer()
                         }
+                        HStack{
+                        Button(action: {
+                                    self.showingModal.toggle()
+                                }) {
+                            Text("Reportar").foregroundColor(Color("actionColor"))
+                                }.sheet(isPresented: $showingModal) {
+                                    TaskListView()
+                                }
+                        .padding()
+                            Spacer()
+                                
+                        }
+                    }
                     }
                     
                 }.background(RoundedRectangle(cornerRadius: 10, style: .continuous)
